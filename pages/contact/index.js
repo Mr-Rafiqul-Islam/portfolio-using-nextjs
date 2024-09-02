@@ -45,7 +45,7 @@ const Contact = () => {
             <textarea placeholder="message" className="textarea"></textarea>
             <button className="btn rounded-full border flex items-center justify-center max-w-[170px] px-8 transition-all duration-300 overflow-hidden border-white/50 hover:border-accent group">
               <span className="group-hover:opacity-0 group-hover:-translate-y-[120%] transition-all duration-500">
-                Let's talk
+                Let&apos;s talk
               </span>
               <BsArrowRight className="group-hover:opacity-100 group-hover:-translate-y-0 transition-all duration-300 -translate-y-[120%] opacity-0 absolute text-[22px]" />
             </button>
