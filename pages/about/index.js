@@ -56,12 +56,12 @@ const aboutData = [
     title: "awards",
     info: [
       {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
+        title: "Top Contributing Ambassador Awards",
+        stage: "2024",
       },
       {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
+        title: "Most Energetic Ambassador Awards ",
+        stage: "2023",
       },
     ],
   },
@@ -69,16 +69,16 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Junior Web Developer - Byte Care LTD",
+        stage: "2024 - Present",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Operation Leader - Creative Cultural Club",
+        stage: "2023-2024",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Campus Ambassador - Creative IT Institute",
+        stage: "2022-2024",
       },
     ],
   },
@@ -86,16 +86,16 @@ const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Front-End Development With REACT- Creative IT Institute",
+        stage: "2024",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "BSc In Mathematics - Dhaka College, Dhaka, BD",
+        stage: "2022-2025",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Hsc - Kabi Nazrul Govt. College, Dhaka, BD",
+        stage: "2020",
       },
     ],
   },
@@ -140,7 +140,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I began freelancing as a developer. Since then, I&apos;ve
+            2 years ago, I began freelancing as a developer. Since then, I&apos;ve
             done remote work for agencies, consulted for startups, and
             collaborated on digital products for business and consumer use.
           </motion.p>
@@ -156,7 +156,7 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={10} duration={5} />+
+                  <CountUp start={0} end={2} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Years of Experience
@@ -165,7 +165,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={250} duration={5} />+
+                  <CountUp start={0} end={15} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   satisfied clients
@@ -174,7 +174,7 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={650} duration={5} />+
+                  <CountUp start={0} end={50} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   finished projects
@@ -183,7 +183,7 @@ const About = () => {
               {/* awards */}
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={8} duration={5} />+
+                  <CountUp start={0} end={2} duration={5} />+
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   winning awards
@@ -229,7 +229,7 @@ const About = () => {
                 <div className="flex gap-x-4">
                   {/* icons */}
                   {item.icons?.map((icon, iconIndex) => (
-                    <div className="text-2xl text-white" key={iconIndex}>
+                    <div className="text-2xl text-white hover:text-accent transition-all duration-300" key={iconIndex}>
                       {icon}
                     </div>
                   ))}
