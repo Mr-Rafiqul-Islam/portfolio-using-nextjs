@@ -28,6 +28,7 @@ import { fadeIn } from "../../variants";
 
 // counter
 import CountUp from "react-countup";
+import ResumeBtn from "../../components/ResumeBtn";
 
 //  data
 const aboutData = [
@@ -117,11 +118,13 @@ const About = () => {
       >
         <Avatar />
       </motion.div>
+
+      {/* about page content */}
       <div
         className="container mx-auto h-full flex flex-col items-center xl:flex-row
       gap-x-6"
       >
-        {/* text */}
+        {/* text & column-1*/}
         <div className="flex-1 flex flex-col justify-center">
           <motion.h2
             variants={fadeIn("right", 0.2)}
@@ -193,7 +196,7 @@ const About = () => {
           </motion.div>
         </div>
 
-        {/* info */}
+        {/* info & column-2*/}
         <motion.div
           variants={fadeIn("left", 0.4)}
           initial="hidden"
@@ -236,6 +239,9 @@ const About = () => {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="mx-auto xl:mx-0 mt-2">
+            <ResumeBtn/>
           </div>
         </motion.div>
       </div>
