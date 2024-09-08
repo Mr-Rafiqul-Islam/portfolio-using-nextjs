@@ -9,40 +9,39 @@ import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 // icons
 import {
-  RxCrop,
   RxPencil2,
   RxDesktop,
-  RxReader,
   RxRocket,
   RxArrowTopRight,
 } from "react-icons/rx";
+import { BsShop, BsWordpress } from "react-icons/bs";
 
 // data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Web Design",
+    description: "Crafting visually appealing and user-friendly website designs tailored to your brand.",
   },
   {
     icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Web Development",
+    description: "Building responsive and high-performance websites with seamless functionality.",
   },
   {
-    icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: <BsShop />,
+    title: "E-commerce ",
+    description: "Developing custom eCommerce platforms to streamline online sales and enhance UX.",
+  },
+  {
+    icon: <BsWordpress />,
+    title: "WordPress",
+    description: "Designing and developing high-quality WordPress websites with custom features.",
   },
   {
     icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Software ",
+    description: "Creating scalable and efficient software solutions tailored to your business needs.",
   },
 ];
 
@@ -74,7 +73,7 @@ const ServiceSlider = () => {
             </div>
             {/* arrow */}
             <div className="text-3xl">
-              <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300 " />
+              <RxArrowTopRight className="group-hover:rotate-45 group-hover:text-accent transition-all duration-300" />
             </div>
           </div>
         </SwiperSlide>

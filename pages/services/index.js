@@ -33,9 +33,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              lorem ipsum dolor sit amet consectetur adipisicing elit. A
-              doloremque exercitationem lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              As a skilled Front-End Developer with expertise in React JS and Next.js extensive experience in eCommerce, API integration, speed optimization, cross-browser compatibility, landing pages, SAAS solutions, and dashboard design.
             </motion.p>
           </div>
           {/* slider */}

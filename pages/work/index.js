@@ -33,9 +33,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              lorem ipsum dolor sit amet consectetur adipisicing elit. A
-              doloremque exercitationem lorem ipsum dolor sit amet consectetur
-              adipisicing elit.
+              I’m excited to take on new projects and continue growing as a web developer. I’m also passionate about new technologies and problem-solving, eager to collaborate on exceptional web projects! Let’s create some awesome websites together!
             </motion.p>
           </div>
           {/* slider */}

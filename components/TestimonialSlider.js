@@ -5,21 +5,21 @@ const testimonialData = [
     name: 'Anne Smith',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Rafiqul transformed our outdated website into a sleek, modern design that perfectly represents our brand. Highly recommend!',
   },
   {
     image: '/t-avt-2.png',
     name: 'Jane Doe',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Our eCommerce sales skyrocketed after Rafiqul built our online store. The functionality is flawless and easy to manage.',
   },
   {
     image: '/t-avt-3.png',
     name: 'Jhon Doe',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      'Rafiqul delivered a custom WordPress site that exceeded our expectations. Fast, secure, and user-friendly!',
   },
 ];
 

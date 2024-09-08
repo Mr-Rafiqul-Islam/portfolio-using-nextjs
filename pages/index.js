@@ -32,7 +32,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Hi, I'm Md. Rafiqul Islam! I'm a web developer with a good amount of experience and knowledge. I really enjoy creating websites that look great and are easy to use. I've been doing this for a few years now and have become skilled in the different parts of web development.
+            Hi, I’m Md. Rafiqul Islam! I’m a web developer with a good amount of experience and knowledge. I really enjoy creating websites that look great and are easy to use. I’ve been doing this for a few years now and have become skilled in the different parts of web development.
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">

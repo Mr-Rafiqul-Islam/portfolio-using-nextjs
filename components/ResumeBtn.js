@@ -22,7 +22,7 @@ const ResumeBtn = () => {
           className="animate-spin-slow w-full h-full max-w-[170px] max-h-[170px]"
         />
 
-        <HiArrowRight className="absolute text-3xl md:text-4xl md:group-hover:translate-x-2 trasition-all duration-300" />
+        <HiArrowRight className="absolute rotate-90 text-3xl md:text-4xl md:group-hover:translate-y-2 trasition-all duration-300" />
       </Link>
     </div>
   );
