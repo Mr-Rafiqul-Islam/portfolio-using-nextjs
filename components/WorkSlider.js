@@ -6,18 +6,22 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb1.png',
+          liveLink: 'https://orebi-main.vercel.app/',
         },
         {
           title: 'title',
-          path: '/thumb2.jpg',
+          path: '/thumb2.png',
+          liveLink: 'https://fractal-ecommerce-rafiqul.netlify.app/',
         },
         {
           title: 'title',
-          path: '/thumb3.jpg',
+          path: '/thumb3.png',
+          liveLink: 'https://metaverse-modern-website-mr-rafiqul-islams-projects.vercel.app/',
         },
         {
           title: 'title',
           path: '/thumb4.jpg',
+          liveLink: 'https://choice-headphone-landingpage.vercel.app/',
         },
       ],
     },
@@ -25,19 +29,23 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb4.jpg',
+          path: '/thumb5.png',
+          liveLink: 'https://mr-rafiqul-islam.github.io/Netwise/',
         },
         {
           title: 'title',
           path: '/thumb1.jpg',
+          liveLink: 'https://orebi-main.vercel.app/',
         },
         {
           title: 'title',
           path: '/thumb2.jpg',
+          liveLink: 'https://orebi-main.vercel.app/',
         },
         {
           title: 'title',
           path: '/thumb3.jpg',
+          liveLink: 'https://orebi-main.vercel.app/',
         },
       ],
     },
@@ -60,6 +68,7 @@ import {
 
 // components 
 import Image from "next/image";
+import Link from "next/link";
 
 
 const WorkSlider = () => {
@@ -91,14 +100,14 @@ const WorkSlider = () => {
                 </div>
                 {/* title part */}
                 <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-16 transition-all duration-300 xl:group-hover:-translate-y-20">
-                  <div className="flex items-center justify-center gap-x-2 text-[13px] tracking-[0.2em]"> 
+                  <Link href={image.liveLink} target="_blank" rel="noopener noreferrer" aria-label={image.liveLink} className="flex items-center justify-center gap-x-2 text-[13px] tracking-[0.2em]"> 
                     {/* title part one */}
                     <div className="delay-100"> LIVE</div>
                     {/* title part two */}
                     <div className="delay-150 translate-y-[500%] group-hover:translate-y-0 transition-all duration-300">PROJECT</div>
                     {/* icons */}
                     <div className="delay-200 text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300"><BsArrowRight /></div>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>
