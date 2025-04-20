@@ -5,7 +5,7 @@ const workSlides = {
       images: [
         {
           title: 'title',
-          path: '/thumb1.jpg',
+          path: '/thumb1.png',
         },
         {
           title: 'title',
