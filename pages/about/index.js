@@ -116,7 +116,7 @@ const About = () => {
         exit="hidden"
         className="hidden xl:flex absolute bottom-0 -left-[370px]"
       >
-        <Avatar />
+        <Avatar src={"/AVATAR1.png"}/>
       </motion.div>
 
       {/* about page content */}
