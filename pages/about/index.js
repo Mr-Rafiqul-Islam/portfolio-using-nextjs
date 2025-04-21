@@ -240,7 +240,7 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="mx-auto xl:mx-0 mt-2">
+          <div className="mx-auto xl:mx-0 mt-2 pb-24 sm:pb-0">
             <ResumeBtn/>
           </div>
         </motion.div>
