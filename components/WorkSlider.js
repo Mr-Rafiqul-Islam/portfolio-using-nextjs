@@ -40,7 +40,7 @@ const workSlides = {
         {
           title: 'title',
           path: '/thumb7.png',
-          liveLink: 'https://sorborno.tech/',
+          liveLink: 'https://digitalcheap.net/',
         },
         {
           title: 'title',
