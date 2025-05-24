@@ -58,6 +58,11 @@ const workSlides = {
           path: "/thumb4.jpg",
           liveLink: "https://choice-headphone-landingpage.vercel.app/",
         },
+        {
+          title: "Air King",
+          path: "/Airking.png",
+          liveLink: "https://airkingbd.com/",
+        },
       ],
     },
   ],
