@@ -4,48 +4,59 @@ const workSlides = {
     {
       images: [
         {
-          title: 'title',
-          path: '/thumb1.png',
-          liveLink: 'https://orebi-main.vercel.app/',
+          title: "title",
+          path: "/thumb1.png",
+          liveLink: "https://orebi-main.vercel.app/",
         },
         {
-          title: 'title',
-          path: '/thumb2.png',
-          liveLink: 'https://fractal-ecommerce-rafiqul.netlify.app/',
+          title: "title",
+          path: "/thumb2.png",
+          liveLink: "https://fractal-ecommerce-rafiqul.netlify.app/",
         },
         {
-          title: 'title',
-          path: '/thumb3.png',
-          liveLink: 'https://metaverse-modern-website-mr-rafiqul-islams-projects.vercel.app/',
+          title: "title",
+          path: "/thumb3.png",
+          liveLink:
+            "https://metaverse-modern-website-mr-rafiqul-islams-projects.vercel.app/",
         },
         {
-          title: 'title',
-          path: '/thumb4.jpg',
-          liveLink: 'https://choice-headphone-landingpage.vercel.app/',
+          title: "title",
+          path: "/Touch.png",
+          liveLink: "https://ticket-booking-mrrafiqulthedev.vercel.app/",
         },
       ],
     },
     {
       images: [
         {
-          title: 'title',
-          path: '/thumb5.png',
-          liveLink: 'https://mr-rafiqul-islam.github.io/Netwise/',
+          title: "title",
+          path: "/thumb5.png",
+          liveLink: "https://mr-rafiqul-islam.github.io/Netwise/",
         },
         {
-          title: 'title',
-          path: '/thumb6.png',
-          liveLink: 'https://mr-rafiqul-islam.github.io/bento-portfolio-html-template/',
+          title: "title",
+          path: "/thumb6.png",
+          liveLink:
+            "https://mr-rafiqul-islam.github.io/bento-portfolio-html-template/",
         },
         {
-          title: 'title',
-          path: '/thumb7.png',
-          liveLink: 'https://digitalcheap.net/',
+          title: "title",
+          path: "/thumb7.png",
+          liveLink: "https://digitalcheap.net/",
         },
         {
-          title: 'title',
-          path: '/thumb8.png',
-          liveLink: 'https://halseystreetlaundromat.bytecareltd.com/',
+          title: "title",
+          path: "/thumb8.png",
+          liveLink: "https://halseystreetlaundromat.net/",
+        },
+      ],
+    },
+    {
+      images: [
+        {
+          title: "title",
+          path: "/thumb4.jpg",
+          liveLink: "https://choice-headphone-landingpage.vercel.app/",
         },
       ],
     },
@@ -54,7 +65,7 @@ const workSlides = {
 
 // swiper
 import { Swiper, SwiperSlide } from "swiper/react";
-import  { Pagination } from 'swiper/modules';
+import { Pagination } from "swiper/modules";
 
 // swiper styles
 import "swiper/css";
@@ -62,14 +73,11 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import "swiper/css/autoplay";
 // icons
-import {
-  BsArrowRight,
-} from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 
-// components 
+// components
 import Image from "next/image";
 import Link from "next/link";
-
 
 const WorkSlider = () => {
   return (
@@ -81,40 +89,52 @@ const WorkSlider = () => {
       }}
       className="h-[280px] sm:h-[480px]"
     >
-     {workSlides.slides.map((slide, index) => (
-       <SwiperSlide key={index}>
-        <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
-          {slide.images.map((image, index) => (
-            <div className="relative rounded-lg overflow-hidden flex items-center justify-center group" key={index}>
-              <div className="overflow-hidden flex items-center justify-center relative">
-                <Image
-                  src={image.path}
-                  width={500}
-                  height={300}
-                  alt={''}
-                  className="w-full h-full"
-                />
-                {/* overlay gradient */}
-                
-                <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700">
-                </div>
-                {/* title part */}
-                <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-16 transition-all duration-300 xl:group-hover:-translate-y-20">
-                  <Link href={image.liveLink} target="_blank" rel="noopener noreferrer" aria-label={image.liveLink} className="flex items-center justify-center gap-x-2 text-[13px] tracking-[0.2em]"> 
-                    {/* title part one */}
-                    <div className="delay-100"> LIVE</div>
-                    {/* title part two */}
-                    <div className="delay-150 translate-y-[500%] group-hover:translate-y-0 transition-all duration-300">PROJECT</div>
-                    {/* icons */}
-                    <div className="delay-200 text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300"><BsArrowRight /></div>
-                  </Link>
+      {workSlides.slides.map((slide, index) => (
+        <SwiperSlide key={index}>
+          <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
+            {slide.images.map((image, index) => (
+              <div
+                className="relative rounded-lg overflow-hidden flex items-center justify-center group"
+                key={index}
+              >
+                <div className="overflow-hidden flex items-center justify-center relative">
+                  <Image
+                    src={image.path}
+                    width={500}
+                    height={300}
+                    alt={""}
+                    className="w-full h-full"
+                  />
+                  {/* overlay gradient */}
+
+                  <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838cc] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-700"></div>
+                  {/* title part */}
+                  <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-16 transition-all duration-300 xl:group-hover:-translate-y-20">
+                    <Link
+                      href={image.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={image.liveLink}
+                      className="flex items-center justify-center gap-x-2 text-[13px] tracking-[0.2em]"
+                    >
+                      {/* title part one */}
+                      <div className="delay-100"> LIVE</div>
+                      {/* title part two */}
+                      <div className="delay-150 translate-y-[500%] group-hover:translate-y-0 transition-all duration-300">
+                        PROJECT
+                      </div>
+                      {/* icons */}
+                      <div className="delay-200 text-xl translate-y-[500%] group-hover:translate-y-0 transition-all duration-300">
+                        <BsArrowRight />
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-       </SwiperSlide>
-     ))}
+            ))}
+          </div>
+        </SwiperSlide>
+      ))}
     </Swiper>
   );
 };
