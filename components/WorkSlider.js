@@ -5,8 +5,8 @@ const workSlides = {
       images: [
         {
           title: "title",
-          path: "/thumb1.png",
-          liveLink: "https://orebi-main.vercel.app/",
+          path: "/Chauffeur.png",
+          liveLink: "https://luxurychauffeurcar.com.au/",
         },
         {
           title: "title",
@@ -57,6 +57,11 @@ const workSlides = {
           title: "title",
           path: "/thumb4.jpg",
           liveLink: "https://choice-headphone-landingpage.vercel.app/",
+        },
+        {
+          title: "title",
+          path: "/Ai_Studio.png",
+          liveLink: "https://mr-rafiqulthedev-ai-image-generator.vercel.app/",
         },
         {
           title: "Air King",
