@@ -11,7 +11,7 @@ const ResumeBtn = () => {
   return (
     <div className="mx-auto xl:mx-0 ">
       <Link
-        href={"/Mr. Rafiqul's CV.pdf"}
+        href={"/Md. Rafiqul Islam's CV.pdf"}
         className="relative w-[100px] h-[100px] md:w-[150px] md:h-[150px] xl:w-[185px] xl:h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group z-10"
       >
         <Image
